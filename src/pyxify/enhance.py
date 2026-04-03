@@ -1,5 +1,5 @@
 from PIL import Image, ImageEnhance, ImageFilter
-from src.imagera.validate import validate_image_and_image_path
+from src.pyxify.validate import validate_image_and_image_path
 
 def enhance_contrast(value: float, image: str | Image.Image) -> Image.Image:
     

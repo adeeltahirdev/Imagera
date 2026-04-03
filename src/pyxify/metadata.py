@@ -1,5 +1,5 @@
 from PIL import Image
-from src.imagera.validate import validate_image_and_image_path
+from src.pyxify.validate import validate_image_and_image_path
 
 
 def get_image_metadata(image: str | Image.Image) -> None:

@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "imagera"
+name = "pyxify"
 version = "0.1.0"
 description = "Imagera is a simple and lightweight Python library for basic image processing tasks."
 readme = "README.md"

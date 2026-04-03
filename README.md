@@ -1,6 +1,6 @@
-# Imagera
+# Pyxify
 
-Imagera is a simple and lightweight Python library for basic image processing tasks.  
+Pyxify is a simple and lightweight Python library for basic image processing tasks.  
 It is built using Pillow and provides easy-to-use functions for resizing, cropping, enhancing, and manipulating images.
 
 ---
@@ -25,7 +25,7 @@ It is built using Pillow and provides easy-to-use functions for resizing, croppi
 ## 🚀 Installation
 
 ```bash
-pip install imagera
+pip install pyxify
 ```
 
 ---
@@ -35,7 +35,7 @@ pip install imagera
 ### Import Library
 
 ```python
-from imagera import *
+from pyxify import *
 ```
 
 ---

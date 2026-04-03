@@ -1,7 +1,7 @@
 import pytest
 
 # Test case for validations
-from src.imagera.validate import validate_image_and_image_path, validate_image_path, validate_file_is_image
+from src.pyxify.validate import validate_image_and_image_path, validate_image_path, validate_file_is_image
 
 def test_validate_image_path():
     
@@ -40,7 +40,7 @@ def test_validate_image_and_image_path():
     
 
 # Test cases for convert
-from src.imagera.convert import grayscale
+from src.pyxify.convert import grayscale
 
 def test_grayscale():
     
@@ -60,7 +60,7 @@ def test_grayscale():
     
     
 # Test cases for meatadata
-from src.imagera.metadata import get_image_metadata
+from src.pyxify.metadata import get_image_metadata
 
 def test_get_image_metadata():
     
@@ -81,7 +81,7 @@ def test_get_image_metadata():
     
 
 # Test cases for flip
-from src.imagera.flip import flip_horizontal, flip_vertical, rotate
+from src.pyxify.flip import flip_horizontal, flip_vertical, rotate
 
 
 def test_flip_horizontal():
@@ -138,7 +138,7 @@ def test_rotate():
     
     
 # Test cases for crop
-from src.imagera.crop import crop, resize
+from src.pyxify.crop import crop, resize
 
 
 def test_crop():
@@ -175,7 +175,7 @@ def test_resize():
         resize(200, 200, img3)
     
 # Test cases fro enhance
-from src.imagera.enhance import enhance_brightness, enhance_contrast, enhance_color, enhance_sharpness, blur_effect
+from src.pyxify.enhance import enhance_brightness, enhance_contrast, enhance_color, enhance_sharpness, blur_effect
 
 
 def test_enhance_brightness():
